@@ -26,7 +26,7 @@ export default function App() {
   const colorScale = d3.scaleOrdinal()
     .domain(["Europe","Asia","Africa","Americas","Oceania"])
     // .range(['#0072B2', '#F0E442', '#D55E00', '#E69F00', '#56B4E9']); 
-    .range(['#900bff','#f70ff0','#ff1547','#ff5c16','#ffc900'])
+    .range(['#900bff','#f70ff0','#ff1547','#ff5c16','#ffc900']);
   return (
     <div className="chart">
       <h1>Global Inequalities Across Continents</h1>
