@@ -25,11 +25,11 @@ export default function App() {
     .range([2, 30]);
   const colorScale = d3.scaleOrdinal()
     .domain(["Europe","Asia","Africa","Americas","Oceania"])
-    .range(['#0072B2', '#F0E442', '#D55E00', '#E69F00', '#56B4E9']); 
-
+    // .range(['#0072B2', '#F0E442', '#D55E00', '#E69F00', '#56B4E9']); 
+    .range(['#900bff','#f70ff0','#ff1547','#ff5c16','#ffc900'])
   return (
     <div className="chart">
-      <h1>Static Bubble Chart</h1>
+      <h1>Global Inequalities Across Continents</h1>
       <svg width={width} height={height} className="chartArea">
         <g transform={`translate(${MARGIN.left}, ${MARGIN.top})`}>
           <Circles 
