@@ -1,0 +1,11 @@
+body{
+    background-color: #300D08;
+}
+.chart {
+    display: flex;
+    flex-direction: column;
+    margin-left: 200px;
+}
+h1, p{
+    color: lavender;
+}
